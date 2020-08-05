@@ -1,0 +1,83 @@
+Found incumbent of value 0.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 10 coefficients.
+Reduced MIP has 20 rows, 75 columns, and 150 nonzeros.
+Reduced MIP has 75 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.14 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 20 rows, 75 columns, and 150 nonzeros.
+Reduced MIP has 75 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.10 ticks)
+Probing time = 0.00 sec. (0.04 ticks)
+Clique table members: 15.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.10 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                            0.0000     2150.0000       39     --- 
+*     0+    0                          385.0000     2150.0000       39  458.44%
+      0     0      410.0000     7      385.0000      410.0000       39    6.49%
+      0     0      410.0000    18      385.0000      Cuts: 18       78    6.49%
+      0     0      409.4000    14      385.0000      Cuts: 10      119    6.34%
+      0     0      405.0000    23      385.0000       Cuts: 8      134    5.19%
+      0     0      405.0000    12      385.0000      Cuts: 10      147    5.19%
+      0     0      405.0000    13      385.0000       Cuts: 6      157    5.19%
+*     0+    0                          395.0000      405.0000      157    2.53%
+      0     2      405.0000     4      395.0000      405.0000      157    2.53%
+Elapsed time = 0.13 sec. (5.02 ticks, tree = 0.01 MB, solutions = 3)
+
+Cover cuts applied:  12
+Mixed integer rounding cuts applied:  1
+Zero-half cuts applied:  1
+
+Root node processing (before b&c):
+  Real time             =    0.13 sec. (4.99 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.02 sec. (0.76 ticks)
+  Sync time (average)   =    0.01 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.14 sec. (5.75 ticks)
+
+Solution status = Optimal
+
+
+Total packed value: 395.0
+Bin 0
+Item 5 - weight: 48.0  value: 30.0
+Item 8 - weight: 36.0  value: 30.0
+Packed bin weight: 84.0
+Packed bin value: 60.0
+
+Bin 1
+Item 1 - weight: 30.0  value: 30.0
+Item 4 - weight: 36.0  value: 35.0
+Item 10 - weight: 30.0  value: 45.0
+Packed bin weight: 96.0
+Packed bin value: 110.0
+
+Bin 2
+Item 9 - weight: 24.0  value: 35.0
+Item 13 - weight: 36.0  value: 30.0
+Item 14 - weight: 36.0  value: 25.0
+Packed bin weight: 96.0
+Packed bin value: 90.0
+
+Bin 3
+Item 2 - weight: 42.0  value: 25.0
+Item 7 - weight: 42.0  value: 40.0
+Packed bin weight: 84.0
+Packed bin value: 65.0
+
+Bin 4
+Item 3 - weight: 36.0  value: 50.0
+Item 12 - weight: 42.0  value: 20.0
+Packed bin weight: 78.0
+Packed bin value: 70.0
+
+Total packed weight: 438.0
